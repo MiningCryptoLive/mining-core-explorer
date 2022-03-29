@@ -11,8 +11,8 @@ var apirouter = require('./routes/api');
 var apiSdk = require('./lib/mining-core-sdk');
 
 var config = {
-  'URI': 'http://127.0.0.1:4000/api',
-  'poolId': 'btp'
+  'URI': 'https://erg.miningcrypto.live/api',
+  'poolId': 'ergo'
 };
 
 var apiRouter = new apirouter(config);
