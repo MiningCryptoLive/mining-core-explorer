@@ -200,7 +200,7 @@
                       {{::block.blockHeight}}
                   </a>                    
                   </td>
-                  <td>{{::block.effort * 100}}</td>
+                  <td>{{::Math.round(block.effort * 100) + %}}</td>
                   <td>{{::block.status}}</td>
                   <td>{{::block.reward}}</td>
                   <td>{{::block.networkDifficulty}}</td>
